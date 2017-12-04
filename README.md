@@ -1,5 +1,5 @@
 # PSMenuId
-PSMenuId is a PowerShell module for calculating sums of JSON file menu items IDs.
+PSMenuId is a PowerShell module for calculating sums of JSON file menu items IDs. Published as a coding exercise.
 
 # Description
 The PSMenuID module contains only one command: Measure-JsonFileMenuItemsIdSum. This command takes a JSON filepath as input, and iterates through each top-level "menu" to calculate the SUM of the IDs of all "items", as long as a "label" exists for that item.
