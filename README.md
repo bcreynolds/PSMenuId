@@ -83,14 +83,22 @@ Or you can also pass the JSON filepath via the PowerShell pipeline:
 
 With the sample input file above, the output will be as follows:
 
-46
-0
-248
+     46
+     0
+     248
 
 # Building, Testing, and Deploying PSMenuID
-Make sure you are running Powershell 5.0 (WMF 5.0).
+Make sure you are running Powershell 5.0 (WMF 5.0), then do the following:
 
-Download the full PSMenuID repository, open a PowerShell window and CD to the downloaded folder, then run .\build.ps1. This will build the PSMenuID module, run automated tests against it, and deploy it to your PowerShell Modules folder at %UserProfile%\Documents\WindowsPowerShell\Modules. At that point, you can type "Import-Module PSMenuID" at any time in a PowerShell window to gain access to the Measure-JsonFileMenuItemsIdSum command.
+1. Download the full PSMenuID repository
+2. Open a PowerShell window
+3. CD to the downloaded PSMenuID folder
+4. Execute ".\build.ps1". This will build the PSMenuID module, run automated tests against it, and deploy it to your PowerShell Modules folder at %UserProfile%\Documents\WindowsPowerShell\Modules.
+5. Type "Import-Module PSMenuID" at any time in a PowerShell window to gain access to the Measure-JsonFileMenuItemsIdSum command.
 
 # Manually Installing PSMenuID
-Download the "PSMenuID" folder within the "PSMenuID" repository and manually copy the entire folder to one of your PowerShell Modules folders such as %UserProfile%\Documents\WindowsPowerShell\Modules. At that point, you can type "Import-Module PSMenuID" at any time in a PowerShell window to gain access to the Measure-JsonFileMenuItemsIdSum command.
+Make sure you are running Powershell 5.0 (WMF 5.0), then do the following:
+
+1. Download the PSMenuID folder within the PSMenuID repository
+2. Manually copy the PSMenuID folder to one of your PowerShell Modules folders such as %UserProfile%\Documents\WindowsPowerShell\Modules.
+3. Type "Import-Module PSMenuID" at any time in a PowerShell window to gain access to the Measure-JsonFileMenuItemsIdSum command.
