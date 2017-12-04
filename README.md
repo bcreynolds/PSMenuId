@@ -91,13 +91,13 @@ With the sample input file above, the output will be as follows:
 Make sure you are running Powershell 5.0 (WMF 5.0), then do the following:
 
 1. Download the full PSMenuID repository
-2. Open a PowerShell window
+2. Open a PowerShell window "As Administrator" (not the PowerShell ISE, however).
 3. CD to the downloaded PSMenuID folder
 4. Execute ".\build.ps1". This will build the PSMenuID module, run automated tests against it, and deploy it to your PowerShell Modules folder at %UserProfile%\Documents\WindowsPowerShell\Modules.
 5. Type "Import-Module PSMenuID" at any time in a PowerShell window to gain access to the Measure-JsonFileMenuItemsIdSum command.
 
 # Manually Installing PSMenuID
-Make sure you are running Powershell 5.0 (WMF 5.0), then do the following:
+Make sure you are running at least Powershell 3.0 (WMF 3.0), then do the following:
 
 1. Download the PSMenuID folder within the PSMenuID repository
 2. Manually copy the PSMenuID folder to one of your PowerShell Modules folders such as %UserProfile%\Documents\WindowsPowerShell\Modules.
